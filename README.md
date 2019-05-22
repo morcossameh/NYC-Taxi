@@ -1,7 +1,7 @@
 # NYC Taxi
 
 <div align = "center">
-<img src="Screenshots/1copy.png" width="800"/>
+<img src="Screenshots/1.png" width="800"/>
 </div>
 
 <div align = "center">
