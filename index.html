@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>NYC Taxi</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="chartist/chartist.min.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1 style="color: #333">NYC Taxi</h1>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">NYC</div>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Number of Trips per day</h2>
+								</header>
+								<div class="ct-chart ct-golden-section" id="tripsADayChart"></div>
+							</article>
+						
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2>Average Vehicles per day</h2>
+									</header>
+									<p style="text-align: center" id="avVehiclesADay">0</p>
+								</article>
+								<article>
+									<header>
+										<h2>Number of trips without drop-off location id</h2>
+									</header>
+									<div class="ct-chart ct-golden-section" id="DropOffChart"></div>
+								</article>
+								<article>
+									<header>
+										<h2>Minutes per trip</h2>
+									</header>
+									<div class="ct-chart ct-golden-section" id="minutesATripChart"></div>
+								</article>
+								<article>
+									<header>
+										<h2>Number of trips picked up from "Madison,Brooklyn" per day</h2>
+									</header>
+									<div class="ct-chart ct-golden-section" id="tripsMadisonChart"></div>
+								</article>
+							</section>
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="statistics.js"></script>
+    	<script src="chartist/chartist.min.js"></script>
+			<script src="charts.js"></script>
+			<script>if (window.module) module = window.module;</script>
+
+	</body>
+</html>
